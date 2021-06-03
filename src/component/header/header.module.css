@@ -1,0 +1,5 @@
+.header {text-align: center;
+padding:1rem;background:#334A58;position:relative;}
+.logo {}
+.title{color:#fff;}
+.logout {position:absolute;right:2rem;top:1rem;border-radius: 40px;background:#000;color:#fff;}
