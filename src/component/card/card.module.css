@@ -1,0 +1,16 @@
+.card_wrap {display:flex;}
+
+.card_make {width:60%;}
+.card_make h2 {text-align: center;font-size: 2rem;color:#334A58;}
+.card_list {width:40%;}
+.card_list h2 {text-align: center;font-size: 2rem;color:#334A58;}
+.card_preview {display:flex;}
+.list_img_area {}
+.list_text_area {}
+
+
+
+@media screen and (max-width:900px){
+    .card_make {width:100%;flex:1;}
+    .card_list {width:100%;flex:1;}
+}

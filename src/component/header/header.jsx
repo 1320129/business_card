@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router';
 import styles from './header.module.css';
 
 
 const Header = ({onLogout}) => {
+    const history = useHistory();
     const logoutService = () => {
         onLogout.logout()
     }
+
+    useEffect(()=>{
+        onLogout.loginchange(user => {
+          if(!user){
+              history.push('/')
+          }
+        }
+        )
+    })
+
     return(
     <div className={styles.header}>
         {onLogout && <button onClick={logoutService} className={styles.logout}>Logout</button>}

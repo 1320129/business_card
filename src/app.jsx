@@ -15,7 +15,7 @@ function App({authService}) {
           </Route>
 
           <Route path="/maker">
-              <Maker/>
+              <Maker onLogout={authService}/>
           </Route>
 
         </Switch>
