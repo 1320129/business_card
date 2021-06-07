@@ -1,7 +1,11 @@
 *{margin:0;padding:0;box-sizing: border-box;}
 .card_wrap {display:flex;}
 
-.card_make {width:55%;}
+.card_make {
+    border-right: 2px dashed #999;
+    width: 55%;
+    padding: 0 2rem;
+}
 .card_make h2 {text-align: center;font-size: 2rem;color:#334A58;}
 .card_list {width:45%;padding:0 2rem;}
 .card_list h2 {text-align: center;font-size: 2rem;color:#334A58;}
@@ -21,8 +25,24 @@
 .email {color:#fff;text-decoration: none;display: block;}
 
 
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:2rem;
+}
+
+.card textarea, input, button {padding: 10px 0;} 
+
+.col_3 {width:33.333%}
+.col_2 {width:50%}
+.col_1 {width:100%}
+
 
 @media screen and (max-width:900px){
     .card_make {width:100%;flex:1;}
     .card_list {width:100%;flex:1;}
+    .card_make {
+        border-right: none;
+        padding: 0 2rem;
+    }
 }
