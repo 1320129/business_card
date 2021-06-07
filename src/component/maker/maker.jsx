@@ -7,7 +7,11 @@ import Cardlist from '../card/cardlist';
 
 const Maker = ({onLogout}) => {
     
-   const [card, setcard] = useState([{name:'Hyuk',company:'whiteorange',color:'Dark',position:'Web developer',email:'shwogur2000@Naver.com',description:'my introduce is...'}]);
+   const [card, setcard] = useState([
+       {name:'Hyuk',company:'company',color:'Light',position:'Web developer',email:'shwogur2000@Naver.com',description:'my introduce is...',fileName:'jeah',fileURL:null},
+       {name:'Hyuk2',company:'company',color:'Red',position:'Web developer',email:'shwogur2000@Naver.com',description:'my introduce is...',fileName:'jeah',fileURL:null},
+       {name:'Hyuk3',company:'company',color:'Blue',position:'Web developer',email:'shwogur2000@Naver.com',description:'my introduce is...',fileName:'jeah',fileURL:null},
+    ]);
     
    useEffect(()=>{
 
@@ -18,7 +22,7 @@ const Maker = ({onLogout}) => {
 
         </Header>
         <div className={styles.container}>
-            <Card card={card}/>
+            <Card card={card} />
             <Cardlist card={card}/>
         </div>
         <Footer>
