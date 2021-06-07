@@ -4,6 +4,9 @@ import Button from '../button/button';
 
 
 const Card = ({card}) => {
+    const onClick = () => {
+        
+    }
     return(
         <div className={styles.card_make}>
             <h2>Card Maker</h2>
@@ -19,8 +22,9 @@ const Card = ({card}) => {
                             <input type="text" value={card.position}/>
                             <input type="text" value={card.email}/>
                             <textarea type="text" value={card.description}/>
+                            <Button name={'delete'}onClick={onClick}/>
                         </form>
-
+                        
                             )
                     })}
                 
