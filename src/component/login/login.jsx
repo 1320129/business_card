@@ -14,8 +14,8 @@ const Login = ({authService}) => {
             state:{id: data}
         })
     }
-    const loginService = (target) => {
-        authService.login(target.currentTarget.textContent)
+    const loginService = (event) => {
+        authService.login(event.currentTarget.textContent)
         .then(data => viewMaker(data.user.uid));
     }
     useEffect(() => {
@@ -25,7 +25,7 @@ const Login = ({authService}) => {
     })
     return(
         <div className={styles.login_wrap}>
-                <Header onLogout={authService}/>
+                <Header authService={authService}/>
                         <section >
                             <h1 className={styles.cont_title}>Login</h1>
                             <ul className={styles.list}>

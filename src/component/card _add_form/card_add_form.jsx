@@ -35,6 +35,7 @@ const Card_add_form = ({Fileput,card,onAdd}) => {
             fileURL: file.fileURL
         }
         formRef.current.reset();
+        setfile({fileName:null,fileURL:null});
         onAdd(card);
 
         
@@ -55,7 +56,7 @@ const Card_add_form = ({Fileput,card,onAdd}) => {
                             <input type="text" name="position" placeholder="Position" className={styles.col_2} ref={Positionref}/>
                             <input type="text" name="email" placeholder="E-mail" className={styles.col_2} ref={Emailref}/>
                             <textarea type="text"name="description" placeholder="Introduce" className={styles.col_1} ref={Descriptionref}/>
-                            <Fileput  changeimage={onfilechanfe}/>
+                            <Fileput  changeimage={onfilechanfe} name={file.fileName}/>
                             <Button name={'Add'} onClick={onSubmit2}/>
                         </form>
                         

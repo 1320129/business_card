@@ -3,14 +3,14 @@ import { useHistory } from 'react-router';
 import styles from './header.module.css';
 
 
-const Header = ({onLogout}) => {
+const Header = ({authService}) => {
     const history = useHistory();
     const logoutService = () => {
-        onLogout.logout()
+        authService.logout()
     }
 
     useEffect(()=>{
-        onLogout.loginchange(user => {
+        authService.loginchange(user => {
           if(!user){
               history.push('/')
           }
@@ -20,7 +20,7 @@ const Header = ({onLogout}) => {
 
     return(
     <div className={styles.header}>
-        {onLogout && <button onClick={logoutService} className={styles.logout}>Logout</button>}
+        {authService && <button onClick={logoutService} className={styles.logout}>Logout</button>}
         <img src="/images/logo.png" className={styles.logo}></img>
         <h1 className={styles.title}>Business Card Maker</h1>
     </div>

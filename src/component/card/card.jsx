@@ -51,7 +51,7 @@ const Card = ({Fileput,card,onAdd,updatecatd,deletecard,changeimageinfo}) => {
                             <input type="text" name="position" value={card[key].position} className={styles.col_2} onChange={onChange} ref={Positionref}/>
                             <input type="text" name="email" value={card[key].email} className={styles.col_2} onChange={onChange} ref={Emailref}/>
                             <textarea type="text"name="description" value={card[key].description} className={styles.col_1} onChange={onChange} ref={Descriptionref}/>
-                            <Fileput changeimage={changeimage}/>
+                            <Fileput changeimage={changeimage} name={card[key].fileName}/>
                             <Button name={'delete'} onClick={onClick}/>
                         </form>
                         
