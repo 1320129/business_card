@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/business_card/static/css/main.6942281a.chunk.css",
-    "main.js": "/business_card/static/js/main.672cb01d.chunk.js",
-    "main.js.map": "/business_card/static/js/main.672cb01d.chunk.js.map",
-    "runtime-main.js": "/business_card/static/js/runtime-main.92f11a6c.js",
-    "runtime-main.js.map": "/business_card/static/js/runtime-main.92f11a6c.js.map",
-    "static/js/2.cc67e432.chunk.js": "/business_card/static/js/2.cc67e432.chunk.js",
-    "static/js/2.cc67e432.chunk.js.map": "/business_card/static/js/2.cc67e432.chunk.js.map",
-    "index.html": "/business_card/index.html",
-    "static/css/main.6942281a.chunk.css.map": "/business_card/static/css/main.6942281a.chunk.css.map",
-    "static/js/2.cc67e432.chunk.js.LICENSE.txt": "/business_card/static/js/2.cc67e432.chunk.js.LICENSE.txt"
+    "main.css": "/firebase-pr/static/css/main.6942281a.chunk.css",
+    "main.js": "/firebase-pr/static/js/main.5c1a3a4c.chunk.js",
+    "main.js.map": "/firebase-pr/static/js/main.5c1a3a4c.chunk.js.map",
+    "runtime-main.js": "/firebase-pr/static/js/runtime-main.7178393a.js",
+    "runtime-main.js.map": "/firebase-pr/static/js/runtime-main.7178393a.js.map",
+    "static/js/2.ad207bcb.chunk.js": "/firebase-pr/static/js/2.ad207bcb.chunk.js",
+    "static/js/2.ad207bcb.chunk.js.map": "/firebase-pr/static/js/2.ad207bcb.chunk.js.map",
+    "index.html": "/firebase-pr/index.html",
+    "static/css/main.6942281a.chunk.css.map": "/firebase-pr/static/css/main.6942281a.chunk.css.map",
+    "static/js/2.ad207bcb.chunk.js.LICENSE.txt": "/firebase-pr/static/js/2.ad207bcb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.92f11a6c.js",
-    "static/js/2.cc67e432.chunk.js",
+    "static/js/runtime-main.7178393a.js",
+    "static/js/2.ad207bcb.chunk.js",
     "static/css/main.6942281a.chunk.css",
-    "static/js/main.672cb01d.chunk.js"
+    "static/js/main.5c1a3a4c.chunk.js"
   ]
 }
