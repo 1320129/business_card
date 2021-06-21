@@ -12,7 +12,7 @@ function App({ FileInput, authService, cardRepository }) {
 
             <Login authService={authService} />
 
-          <Route path="https://1320129.github.io/business_card/maker">
+          <Route path="/maker">
             <Maker
               FileInput={FileInput}
               authService={authService}
