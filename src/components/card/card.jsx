@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import styles from './card.module.css';
 
-const DEFAULT_IMAGE = '/business_card/images/default_logo.png';
+const DEFAULT_IMAGE = '/firebase-pr/images/default_logo.png';
 
 const Card = memo(({ card }) => {
   const { name, company, title, email, message, theme, fileURL } = card;

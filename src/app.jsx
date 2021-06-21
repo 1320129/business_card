@@ -9,10 +9,10 @@ function App({ FileInput, authService, cardRepository }) {
     <div className={styles.app}>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/business_card">
+          <Route exact path="/firebase-pr">
             <Login authService={authService} />
           </Route>
-          <Route path="/business_card/maker">
+          <Route path="/firebase-pr/maker">
             <Maker
               FileInput={FileInput}
               authService={authService}
