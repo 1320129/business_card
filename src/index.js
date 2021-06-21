@@ -1,29 +1,26 @@
-import React from 'react';
+import React, { memo } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.module.css';
 import App from './app';
-import AuthService from './service/loginservice';
-import Imageuploader from './service/fileupload';
-import ImageFileInput from './component/image_file_input/image_file_input';
-import CardRepository from './service/cardRepository';
+import AuthService from './service/auth_service';
+import ImageUploader from './service/image_uploader';
+import ImageFileInput from './components/image_file_input/image_file_input';
+import CardRepository from './service/card_repository';
 
 const authService = new AuthService();
-const imageuploader = new Imageuploader();
 const cardRepository = new CardRepository();
-
-console.log(cardRepository);
-
-
-const Fileput = (props) => (
-  <ImageFileInput {...props} imageuploader={imageuploader} />
-)
-
+const imageUploader = new ImageUploader();
+const FileInput = memo(props => (
+  <ImageFileInput {...props} imageUploader={imageUploader} />
+));
 
 ReactDOM.render(
   <React.StrictMode>
-    <App authService={authService} Fileput={Fileput} cardRepository={cardRepository} />
+    <App
+      authService={authService}
+      FileInput={FileInput}
+      cardRepository={cardRepository}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
