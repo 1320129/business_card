@@ -8,7 +8,7 @@ const Login = ({ authService }) => {
   const history = useHistory();
   const goToMaker = userId => {
     history.push({
-      pathname: '/business_card/maker',
+      pathname: '/firebase-pr/maker',
       state: { id: userId },
     });
   };
