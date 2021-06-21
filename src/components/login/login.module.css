@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: makerWhite;
+  box-sizing: border-box;
 }
 
 .list {
@@ -15,6 +16,7 @@
   flex-direction: column;
   list-style: none;
   padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 .item {
@@ -34,4 +36,7 @@
 
 .button:hover {
   background-color: makerLightPink;
+}
+.title{
+  color:#fff;
 }

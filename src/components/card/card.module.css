@@ -13,12 +13,12 @@
 }
 
 .card.dark {
-  background-color: makerBlack;
+  background:linear-gradient(173deg, rgba(212,204,204,1) 0%, rgba(0,0,0,1) 100%);
   color: makerWhite;
 }
 
 .card.light {
-  background-color: makerWhite;
+  background:linear-gradient(173deg, rgba(255,105,105,1) 0%, rgba(0,0,0,1) 100%);
   color: makerBlack;
 }
 .card.colorful {

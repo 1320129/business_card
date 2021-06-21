@@ -9,14 +9,22 @@ const Login = ({ authService }) => {
   const goToMaker = userId => {
     history.push({
       pathname: '/firebase-pr/maker',
-      state: { id: userId },
+      state: { id: userId.user.uid, name:userId.user.displayName},
     });
   };
+
+  const Login_warning = () => (
+    <>
+    <p className={styles.title}>Firebase 로그인 api 입니다.</p>
+    <p className={styles.title}>*어떠한 개인정보도 받지 않습니다.*</p>
+    </>
+    )
+  
 
   const onLogin = event => {
     authService //
       .login(event.currentTarget.textContent)
-      .then(data => goToMaker(data.user.uid));
+      .then(data => goToMaker(data));
   };
 
   useEffect(() => {
@@ -43,7 +51,7 @@ const Login = ({ authService }) => {
           </li>
         </ul>
       </section>
-      <Footer />
+      <Footer Login_warning={Login_warning}/>
     </section>
   );
 };

@@ -6,6 +6,7 @@
   padding: 0.5em;
   background-color: makerGreen;
   position: relative;
+  box-sizing: border-box;
 }
 
 .logo {
