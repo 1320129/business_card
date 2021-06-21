@@ -31,7 +31,7 @@ const Maker = ({ FileInput, authService, cardRepository }) => {
       if (user) {
         setUserId(user.uid);
       } else {
-        history.push('/');
+        history.push('/business_card');
       }
     });
   }, [authService, userId, history]);
