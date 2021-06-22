@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/firebase-pr/static/css/main.b86174c2.chunk.css",
+    "main.css": "/firebase-pr/static/css/main.d14d7cb7.chunk.css",
     "main.js": "/firebase-pr/static/js/main.b9e8b411.chunk.js",
     "main.js.map": "/firebase-pr/static/js/main.b9e8b411.chunk.js.map",
     "runtime-main.js": "/firebase-pr/static/js/runtime-main.7178393a.js",
@@ -8,13 +8,14 @@
     "static/js/2.bc8cf2a2.chunk.js": "/firebase-pr/static/js/2.bc8cf2a2.chunk.js",
     "static/js/2.bc8cf2a2.chunk.js.map": "/firebase-pr/static/js/2.bc8cf2a2.chunk.js.map",
     "index.html": "/firebase-pr/index.html",
-    "static/css/main.b86174c2.chunk.css.map": "/firebase-pr/static/css/main.b86174c2.chunk.css.map",
-    "static/js/2.bc8cf2a2.chunk.js.LICENSE.txt": "/firebase-pr/static/js/2.bc8cf2a2.chunk.js.LICENSE.txt"
+    "static/css/main.d14d7cb7.chunk.css.map": "/firebase-pr/static/css/main.d14d7cb7.chunk.css.map",
+    "static/js/2.bc8cf2a2.chunk.js.LICENSE.txt": "/firebase-pr/static/js/2.bc8cf2a2.chunk.js.LICENSE.txt",
+    "static/media/app.module.css": "/firebase-pr/static/media/bg.601c647a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7178393a.js",
     "static/js/2.bc8cf2a2.chunk.js",
-    "static/css/main.b86174c2.chunk.css",
+    "static/css/main.d14d7cb7.chunk.css",
     "static/js/main.b9e8b411.chunk.js"
   ]
 }
