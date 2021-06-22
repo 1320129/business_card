@@ -2,10 +2,10 @@
 
 .footer {
   width: 100%;
-  background-color: makerGreen;
+  background: linear-gradient(173deg, rgba(119,171,246,1) 0%, rgba(61,124,227,1) 100%);
   text-align: center;
 }
 
 .title {
-  color: makerWhite;
+  color: makerWhite;font-size: 2rem;font-weight: 600;margin:20px 0;
 }

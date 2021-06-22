@@ -4,7 +4,7 @@
   width: 100%;
   text-align: center;
   padding: 0.5em;
-  background-color: makerGreen;
+  background: linear-gradient(173deg, rgba(119,171,246,1) 0%, rgba(61,124,227,1) 100%);
   position: relative;
   box-sizing: border-box;
 }

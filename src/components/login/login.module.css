@@ -28,15 +28,19 @@
   height: 2.5em;
   font-size: 1.2rem;
   border-radius: 1.2rem;
-  background-color: transparent;
+  background: linear-gradient(242deg, rgba(119,171,246,1) 0%, rgba(61,124,227,1) 100%);
   cursor: pointer;
   border: 0.2rem solid makerGreen;
   outline: 0;
+  box-shadow: 1px 1px 5px black;
+  color:#fff;
 }
 
 .button:hover {
   background-color: makerLightPink;
 }
 .title{
-  color:#fff;
+  color:#fff;margin: 2px 0;
 }
+
+.login_title {padding:0;margin:20px 0;font-size: 2rem;}
